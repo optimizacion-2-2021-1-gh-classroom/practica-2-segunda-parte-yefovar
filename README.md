@@ -1,4 +1,4 @@
-**Parte 2 de la práctica 2 del curso de Optimización 2 2021-1: reimplementación de secciones de código del paquete construído y preparación para la entrega de su práctica / proyecto final**
+**Parte 2 de la práctica 2 del curso de Optimización 2 2021-1: reimplementación de secciones de código del paquete construído para uso de niveles de BLAS, compilación a C, cómputo en paralelo, concurrente o distribuido. Preparación para la entrega de su práctica / proyecto final**
 
 Antes de iniciar a trabajar: 
 
