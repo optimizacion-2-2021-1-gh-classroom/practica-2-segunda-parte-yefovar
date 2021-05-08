@@ -1,4 +1,3 @@
-math
 time
 pytest
 memory_profiler
