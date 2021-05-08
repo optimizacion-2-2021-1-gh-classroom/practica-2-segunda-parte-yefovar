@@ -1,5 +1,6 @@
-math
-time
-pytest
-memory_profiler
-guppy
+pytest==6.2.4
+memory_profiler==0.58.0
+guppy3==3.1.0
+scipy==1.5.4
+Cython==0.29.23
+line_profiler
