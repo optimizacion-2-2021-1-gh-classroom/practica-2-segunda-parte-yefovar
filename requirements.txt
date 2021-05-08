@@ -3,3 +3,4 @@ time
 pytest
 memory_profiler
 guppy
+cython
