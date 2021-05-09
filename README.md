@@ -36,7 +36,7 @@ En particular, se indicó que existen imágenes de docker que ayudan a utilizar 
 ### Botón de binder 
 Para consultar ejemplos de implementaciones usa el boton de binder y el notebook para realizar el *testing* es reporte_equipo_3_parte_2_practica_2.ipynb
 
-[![Binder]()
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/main?urlpath=lab)
 
 # Perfilamiento en instancia de AWS
 
