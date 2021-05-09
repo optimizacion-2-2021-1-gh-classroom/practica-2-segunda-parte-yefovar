@@ -34,29 +34,34 @@ En particular, se indicó que existen imágenes de docker que ayudan a utilizar 
 <img src="docs/images/Documentacion%20paquete%20-%20Docker.png">
 
 ### Botón de binder 
-Para consultar ejemplos de implementaciones usa el boton de binder y el notebook para realizar el *testing* es ###CORREGIR###3_parte_2_practica_1.ipynb#
+Para consultar ejemplos de implementaciones usa el boton de binder y el notebook para realizar el *testing* es reporte_equipo_3_parte_2_practica_2.ipynb
 
 [![Binder]()
 
-### Perfilamiento en instancia de AWS
+# Perfilamiento en instancia de AWS
 
 Para hacer más eficiente los métodos del paquete realizamos perfilamiento en instancias de AWS. Incluimos características de la instancia en la que lo realizamos.
 
-#### Perfilamiento tiempo
+## Perfilamiento tiempo
 
 Para revisar la documentacion se puede accesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_tiempo.ipynb)
 
-#### Perfilamiento memoria
+## Perfilamiento memoria
 
 Para revisar la documentacion se puede accesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_memoria.ipynb) 
 
-### Eficiencia del metodo
+# Eficiencia del metodo
 
 Una vez realizado el perfilamiento evaluamos cómo eficientiar  nuestro método:
 1. Uso de compilación a C para secciones de su código.
 
 Para revisar la documentacion se puedea ccesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_tiempo_cython.ipynb)
 
-#### Optimización en Cython
+## Optimización en Cython
 
 La documentación del paquete se encuentra en la siguiente [liga.](https://optimizacion-2-2021-1-gh-classroom.github.io/practica-2-segunda-parte-yefovar/)
+
+# Evidencia trabajo AWS
+
+Se anexa evidencia de trabajo y solución del problema a través de cómputo en la nube.
+<img src="https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/docs/images/Uso%20instancia%20AWS%20-%20Practica%202%20segunda%20parte.png">
