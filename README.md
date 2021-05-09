@@ -31,7 +31,7 @@ con:
 Usamos sphynx para documentar nuestro [paquete.](https://optimizacion-2-2021-1-gh-classroom.github.io/practica-1-segunda-parte-yefovar/Simplex.html#module-Simplexs)
 
 En particular, se indicó que existen imágenes de docker que ayudan a utilizar el paquete (sin y con Kale) tal como se muestra en la siguiente imagen.
-<img src="">
+<img src="docs/images/Documentacion%20paquete%20-%20Docker.png">
 
 ### Botón de binder 
 Para consultar ejemplos de implementaciones usa el boton de binder y el notebook para realizar el *testing* es ###CORREGIR###3_parte_2_practica_1.ipynb#
