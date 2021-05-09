@@ -38,6 +38,25 @@ Para consultar ejemplos de implementaciones usa el boton de binder y el notebook
 
 [![Binder]()
 
-### Optimización en Cython
+### Perfilamiento en instancia de AWS
 
-https://optimizacion-2-2021-1-gh-classroom.github.io/practica-2-segunda-parte-yefovar/
+Para hacer más eficiente los métodos del paquete realizamos perfilamiento en instancias de AWS. Incluimos características de la instancia en la que lo realizamos.
+
+#### Perfilamiento tiempo
+
+Para revisar la documentacion se puede accesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_tiempo.ipynb)
+
+#### Perfilamiento memoria
+
+Para revisar la documentacion se puede accesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_memoria.ipynb) 
+
+### Eficiencia del metodo
+
+Una vez realizado el perfilamiento evaluamos cómo eficientiar  nuestro método:
+1. Uso de compilación a C para secciones de su código.
+
+Para revisar la documentacion se puedea ccesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_tiempo_cython.ipynb)
+
+#### Optimización en Cython
+
+La documentación del paquete se encuentra en la siguiente [liga.](https://optimizacion-2-2021-1-gh-classroom.github.io/practica-2-segunda-parte-yefovar/)
