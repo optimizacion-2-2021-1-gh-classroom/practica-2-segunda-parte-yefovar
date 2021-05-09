@@ -4,4 +4,4 @@ guppy3==3.1.0
 scipy==1.5.4
 Cython==0.29.23
 line_profiler
-git+https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git#egg=Simplex&subdirectory=src
+#git+https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git#egg=Simplex&subdirectory=src
