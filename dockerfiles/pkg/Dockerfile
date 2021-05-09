@@ -6,7 +6,7 @@ ENV LC_ALL C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive 
 ENV DEB_BUILD_DEPS="sudo nano less git wget curl python3-dev python3-pip python3-setuptools"
 ENV DEB_PACKAGES=""
-ENV PIP_PACKAGES_COMMON=""
+ENV PIP_PACKAGES_COMMON="pytest==6.2.4, memory_profiler==0.58.0, guppy3==3.1.0, scipy==1.5.4, line_profiler"
 ENV PIP_PACKAGES_KALE="kubeflow-kale==0.6.1"
 
 RUN apt-get update && export $DEBIAN_FRONTEND && \
@@ -27,7 +27,7 @@ RUN jupyter notebook --generate-config && \
 
 COPY ../../requirements.txt .
 RUN pip install -r requirements.txt
-#RUN pip install $PIP_PACKAGES_COMMON --upgrade
+RUN pip install $PIP_PACKAGES_COMMON --upgrade
 RUN pip install $PIP_PACKAGES_KALE --upgrade
 RUN jupyter labextension install kubeflow-kale-labextension
 
