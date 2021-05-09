@@ -39,10 +39,14 @@ RUN pip install --quiet "git+https://github.com/optimizacion-2-2021-1-gh-classro
 #RUN pip install practica-1-segunda-parte-yefovar/src/
 
 # create user with a home directory
-USER main
-ENV HOME /home/main
-ENV SHELL /bin/bash
-ENV USER main
-WORKDIR $HOME
+ARG NB_USER
+ARG NB_UID
+ENV USER ${NB_USER}
+ENV HOME /home/${NB_USER}
 
-ADD perfilamiento home/main/
+RUN adduser --disabled-password \
+    --gecos "Default user" \
+    --uid ${NB_UID} \
+    ${NB_USER}
+WORKDIR ${HOME}
+USER ${USER}
