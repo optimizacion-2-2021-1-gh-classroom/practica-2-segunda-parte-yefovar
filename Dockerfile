@@ -39,16 +39,10 @@ RUN pip install --quiet "git+https://github.com/optimizacion-2-2021-1-gh-classro
 #RUN pip install practica-1-segunda-parte-yefovar/src/
 
 # create user with a home directory
-ARG NB_USER
-ARG NB_UID
-ENV USER ${NB_USER}
-ENV HOME /home/${NB_USER}
+USER main
+ENV HOME /home/main
+ENV SHELL /bin/bash
+ENV USER main
+WORKDIR $HOME
 
-RUN adduser --disabled-password \
-    --gecos "Default user" \
-    --uid ${NB_UID} \
-    ${NB_USER}
-WORKDIR ${HOME}
-USER ${USER}
-
-ADD perfilamiento/perfilamiento_memoria.ipynb home/main/perfilamiento
+ADD perfilamiento home/main/
