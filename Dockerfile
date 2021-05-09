@@ -32,7 +32,7 @@ RUN jupyter notebook --generate-config && \
 #RUN pip install $PIP_PACKAGES_COMMON --upgrade
 
 RUN pip install --quiet "git+https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git#egg=Simplex&subdirectory=src"
-RUN pip install --quiet "git+https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git#egg=SimplexC&subdirectory=src"
+#RUN pip install --quiet "git+https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git#egg=SimplexC&subdirectory=src"
 #RUN pip install --quiet "git+https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git#subdirectory=src"
 #RUN git clone https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git 
 #Instala paquetes necesario
