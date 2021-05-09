@@ -32,6 +32,9 @@ RUN pip install $PIP_PACKAGES_KALE --upgrade
 RUN jupyter labextension install kubeflow-kale-labextension
 
 RUN pip install --quiet "git+https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git#egg=Simplex&subdirectory=src"
+
+RUN pip install Cython
+
 RUN pip install --quiet "git+https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git#egg=SimplexC&subdirectory=src"
 
 VOLUME ["/shared_volume"]
