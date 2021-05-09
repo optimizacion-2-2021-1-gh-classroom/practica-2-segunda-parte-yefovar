@@ -1,4 +1,4 @@
-#Dummy line 
+#Dummy line
 FROM ubuntu:bionic
 ENV TIMEZONE America/Mexico_City
 ENV LANG C.UTF-8
@@ -19,7 +19,7 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && apt-get i
 RUN pip3 install jupyter "jupyterlab>=2.0.0,<3.0.0" --upgrade
 
 RUN sudo apt-get install build-essential
-
+RUN pip install Cython
 #next password is dummy
 
 RUN jupyter notebook --generate-config && \
@@ -31,7 +31,11 @@ RUN pip install -r requirements.txt
 RUN pip install $PIP_PACKAGES_KALE --upgrade
 RUN jupyter labextension install kubeflow-kale-labextension
 
-RUN pip install --quiet "git+https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git#egg=Simplex&subdirectory=src"
+#RUN pip install --quiet "git+https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git#egg=Simplex&subdirectory=src"
+#RUN pip install --quiet "git+https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git#egg=SimplexC&subdirectory=src"
+RUN git clone https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git 
+#Instala paquetes necesario
+RUN pip install practica-1-segunda-parte-yefovar/src/
 
 VOLUME ["/shared_volume"]
 
@@ -40,3 +44,4 @@ WORKDIR /
 ENV NB_PREFIX opturl
 
 ENTRYPOINT ["/usr/local/bin/jupyter", "lab", "--ip=0.0.0.0", "--no-browser", "--allow-root", "--LabApp.allow_origin='*'", "--LabApp.base_url=opturl"]
+
