@@ -46,6 +46,8 @@ Para hacer más eficiente los métodos del paquete realizamos perfilamiento en i
 
 Para revisar la documentacion se puede accesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_tiempo.ipynb)
 
+Nota. Las reimplementaciones derivadas del perfilamiento del tiempo se ejecutaron en el repositorio anterior (práctica 1 segunda parte), posteriormente la imágen de docker se actualizó para que tuviera los cambios realizados.
+
 ## Perfilamiento memoria
 
 Para revisar la documentacion se puede accesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_memoria.ipynb) 
@@ -63,5 +65,10 @@ La documentación del paquete se encuentra en la siguiente [liga.](https://optim
 
 # Evidencia trabajo AWS
 
+**Características de la instancia** <br>
+Se utilizó la misma instancia que utilizamos para el desarrollo de kale y minikube, la AMI opt2-aws-educate-17-03-2021 con m5.2xlarge, la cual tiene 8 CPU's.
+
 Se anexa evidencia de trabajo y solución del problema a través de cómputo en la nube.
 <img src="https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/docs/images/Uso%20instancia%20AWS%20-%20Practica%202%20segunda%20parte.png">
+
+
