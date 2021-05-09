@@ -37,3 +37,16 @@ RUN pip install --quiet "git+https://github.com/optimizacion-2-2021-1-gh-classro
 #RUN git clone https://github.com/optimizacion-2-2021-1-gh-classroom/practica-1-segunda-parte-yefovar.git 
 #Instala paquetes necesario
 #RUN pip install practica-1-segunda-parte-yefovar/src/
+
+# create user with a home directory
+ARG NB_USER
+ARG NB_UID
+ENV USER ${NB_USER}
+ENV HOME /home/${NB_USER}
+
+RUN adduser --disabled-password \
+    --gecos "Default user" \
+    --uid ${NB_UID} \
+    ${NB_USER}
+WORKDIR ${HOME}
+USER ${USER}
