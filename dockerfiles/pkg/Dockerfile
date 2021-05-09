@@ -11,11 +11,11 @@ ENV PIP_PACKAGES_KALE="kubeflow-kale==0.6.1"
 
 RUN apt-get update && export $DEBIAN_FRONTEND && \
     echo $TIMEZONE > /etc/timezone && apt-get install -y tzdata
-    
+
 RUN apt-get update && apt-get install -y $DEB_BUILD_DEPS $DEB_PACKAGES && pip3 install --upgrade pip  
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && apt-get install -y nodejs
-
+RUN apt-get install -y libopenblas-dev 
 RUN pip3 install jupyter "jupyterlab>=2.0.0,<3.0.0" --upgrade
 
 RUN sudo apt-get install build-essential
