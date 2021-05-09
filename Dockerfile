@@ -23,7 +23,7 @@ RUN pip install guppy3 --upgrade
 RUN pip install scipy --upgrade
 RUN pip install line_profiler --upgrade
 #next password is dummy
-
+RUN pip install numpy==1.19.3 --no-binary numpy --force-reinstall
 RUN jupyter notebook --generate-config && \
     sed -i "s/#c.NotebookApp.password = .*/c.NotebookApp.password = u'sha1:115e429a919f:21911277af52f3e7a8b59380804140d9ef3e2380'/" ~/.jupyter/jupyter_notebook_config.py        
 
