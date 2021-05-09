@@ -50,3 +50,5 @@ RUN adduser --disabled-password \
     ${NB_USER}
 WORKDIR ${HOME}
 USER ${USER}
+
+ADD perfilamiento/perfilamiento_memoria.ipynb home/main/perfilamiento
