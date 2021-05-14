@@ -34,7 +34,8 @@ RUN pip install guppy3 --upgrade
 RUN pip install scipy --upgrade
 RUN pip install line_profiler --upgrade
 RUN pip install numpy==1.19.3 --no-binary numpy --force-reinstall
-
+RUN pip install seaborn
+RUN pip install missingno
 RUN pip install $PIP_PACKAGES_KALE --upgrade
 RUN jupyter labextension install kubeflow-kale-labextension
 
