@@ -44,13 +44,17 @@ Para hacer más eficiente los métodos del paquete realizamos perfilamiento en i
 
 ## Perfilamiento tiempo
 
-Para revisar la documentacion se puede accesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_tiempo.ipynb)
+Para revisar la documentacion se puede accesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_tiempo_grande.ipynb)
+
+Para revisar la documentacion con cython accesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_tiempo_cython_grande.ipynb)
 
 Nota. Las reimplementaciones derivadas del perfilamiento del tiempo se ejecutaron en el repositorio anterior (práctica 1 segunda parte), posteriormente la imágen de docker se actualizó para que tuviera los cambios realizados.
 
 ## Perfilamiento memoria
 
-Para revisar la documentacion se puede accesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_memoria.ipynb) 
+Para revisar la documentacion se puede accesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_memoria_grande.ipynb) 
+
+Para revisar la documentacion con cython se puede accesar al siguiente [reporte.](https://github.com/optimizacion-2-2021-1-gh-classroom/practica-2-segunda-parte-yefovar/blob/main/perfilamiento/Perfilamiento_memoria_cython_grande.ipynb) 
 
 # Eficiencia del metodo
 
